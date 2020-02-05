@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: lightsteelblue;
+}
+#box {
+  border: 1px solid black;
+  list-style: none;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: url("EYES_IN_THE_SKIES-800x494.jpg");
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+#numbers {
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+  margin-top: 30px;
+}
+.num1 {
+  border: 1px solid black;
+  background-color: lightsteelblue;
+}
+.num2 {
+  border: 1px solid black;
+  background-color: lightsteelblue;
+}
+#calculator {
+  justify-content: space-evenly;
+  display: flex;
+  margin-top: 35px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+#answer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  height: 45px;
+}
+#add:hover {
+  border: 1px solid black;
+  width: 40px;
+  font-size: 20px;
+}
+#subtract:hover {
+  border: 1px solid black;
+  width: 40px;
+  font-size: 20px;
+}
+#multiply:hover {
+  border: 1px solid black;
+  width: 40px;
+  font-size: 20px;
+}
+#divide:hover {
+  border: 1px solid black;
+  width: 40px;
+  font-size: 20px;
+}
+.answer {
+  border: 1px solid black;
+  background-color: lightsteelblue;
+}
