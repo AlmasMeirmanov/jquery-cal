@@ -1,7 +1,31 @@
 $(document).ready(function() {
   $("#add").on("click", function(e) {
     e.preventDefault()
-    var val = Number($("num1").val())
-    var val = Number($("num2").val())
+    var a = $("#num1").val()
+    var b = $("#num2").val()
+    var c = Number(a) + Number(b)
+    console.log(c)
+    $("#answer").html(c)
+  })
+  $("#subtract").on("click", function(e) {
+    var a = $("#num1").val()
+    var b = $("#num2").val()
+    var c = Number(a) - Number(b)
+    console.log(c)
+    $("#answer").html(c)
+  })
+  $("#multiply").on("click", function(e) {
+    var a = $("#num1").val()
+    var b = $("#num2").val()
+    var c = Number(a) * Number(b)
+    console.log(c)
+    $("#answer").html(c)
+  })
+  $("#divide").on("click", function(e) {
+    var a = $("#num1").val()
+    var b = $("#num2").val()
+    var c = Number(a) / Number(b)
+    console.log(c)
+    $("#answer").html(c)
   })
 })
